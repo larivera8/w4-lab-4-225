@@ -39,11 +39,11 @@ elif avg >= 80 and avg <89:         # added semicolon
 
 ''' 
 70-79 :C, 60-69: D, 0-59:F
-elif avg <= 70 and avg < 80:
+elif avg >= 70 and avg < 80:
 
-elif avg <= 60 and avg < 70:
+elif avg >= 60 and avg < 70:
 
-elif avg <= 0 and avg < 60:
+elif avg >= 0 and avg < 60:
 
 '''    
     
