@@ -12,5 +12,10 @@ if year <= 1900:                                        #adeed semicolon
     print("Woah,that's the past!")                     # changed the apostrophe to quotation mark
 elif year > 1900 & year < 2020:                       #removed &
     print("That's totally the present!")                # took of space
+'''
+else:
+    print(Far out, that;s the future!!")
+'''
+    
 elif year > 2022 & year < 2030:                            #added year
     print("Far out, that's the future!!")             # took of space
