@@ -36,6 +36,18 @@ if avg >= 90:
     letter_grade = "A"
 elif avg >= 80 and avg <89:         # added semicolon
     letter_grade = "B"
+
+''' 
+70-79 :C, 60-69: D, 0-59:F
+elif avg <= 70 and avg < 80:
+
+elif avg <= 60 and avg < 70:
+
+elif avg <= 0 and avg < 60:
+
+'''    
+    
+    
 elif avg > 70 and avg < 79:            # changed grades
     letter_grade = "C"                   # changed it to quotation marks
 elif avg <= 60 and avg >= 69:         #changed grades
@@ -43,13 +55,24 @@ elif avg <= 60 and avg >= 69:         #changed grades
 elif avg <=50 and avg >=00:          # removed semicolon and added an expression
     letter_grade = "F"
 
+    
 for grade in grades:
     print("Exam: " + str(grade))
 
+'''
+Average and Grade should be printed once, no indentation
+
+print("Average: " + str(avg))
+print("Grade: " + letter_grade)
+'''
     print("Average: " + str(avg))
 
     print("Grade: " + letter_grade)
 
+'''
+use "==" operator instead "is" operator
+if letter_grade == "F":
+'''
 if letter-grade is "F":
     print("Student is failing.")         #added parenthesis
 else:
